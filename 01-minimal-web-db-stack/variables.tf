@@ -54,7 +54,7 @@ variable "db_count" {
 # Can view slugs (valid options) https://slugs.do-api.dev/
 variable "droplet_size" {
     type = string
-    default = "s-1vcpu-1gb"
+    default = "s-2vcpu-4gb"   # was "s-1vcpu-1gb"
 }
 
 # The size we want our database images to be to be.
