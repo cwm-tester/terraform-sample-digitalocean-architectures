@@ -41,7 +41,7 @@ variable "region" {
 # The number of droplets to create.
 variable "droplet_count" {
     type = number
-    default = 1
+    default = 2
 }
 
 # The number of database nodes to create
